@@ -121,7 +121,7 @@ Client will run on http://localhost:5173
 
 ## Screenshot
 Include a screenshot of the running app in `public/` and reference it here:
-![Chat app screenshot](socketio-chat/screenshot.png)
+![Chat app screenshot](screenshot.png)
 
 ## Contributing
 - Fork, create a branch, implement changes, open a PR.
