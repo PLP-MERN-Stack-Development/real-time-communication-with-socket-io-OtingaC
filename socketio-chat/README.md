@@ -10,6 +10,7 @@ A full-featured real-time chat application built with Socket.IO, React, and Node
 - HTML/CSS/Vanilla JS
 
 ## Project Structure
+```
 socketio-chat/
 ├── client/                  # React front-end
 │   ├── public/
@@ -57,7 +58,7 @@ socketio-chat/
 │   └── .env
 ├── README.md
 └── screenshot.png
-
+```
 ## Quick setup
 
 Prerequisites:
