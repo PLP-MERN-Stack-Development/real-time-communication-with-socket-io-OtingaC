@@ -11,52 +11,52 @@ A full-featured real-time chat application built with Socket.IO, React, and Node
 
 ## Project Structure
 socketio-chat/
-├── client/                 # React front-end
-│   ├── public/            
-│   ├── src/               
-│   │   ├── components/    # UI components
+├── client/                  # React front-end
+│   ├── public/
+│   ├── src/
+│   │   ├── components/      # UI components
 │   │   │   ├── ChatHeader.jsx
 │   │   │   ├── MessageInput.jsx
 │   │   │   ├── MessageList.jsx
 │   │   │   ├── Sidebar.jsx
 │   │   │   └── TypingIndicator.jsx
-│   │   ├── context/       # React context providers
+│   │   ├── context/         # React context providers
 │   │   │   ├── ChatContext.jsx
 │   │   │   └── SocketContext.jsx
-│   │   ├── hooks/         # Custom React hooks
+│   │   ├── hooks/           # Custom React hooks
 │   │   │   └── useChatSocket.js
-│   │   ├── pages/         # Page components
+│   │   ├── pages/           # Page components
 │   │   │   ├── ChatPage.jsx
 │   │   │   └── LoginPage.jsx
-│   │   ├── socket/        # Socket.io client setup
+│   │   ├── socket/          # Socket.io client setup
 │   │   │   └── socket.js
-│   │   ├── App.jsx        
-│   │   ├── App.css        
-│   │   └── main.jsx       
-│   ├── index.html         
-│   ├── package.json       
-│   ├── vite.config.js     
-│   └── .env               
-├── server/                # Node.js back-end
-│   ├── controllers/       # Socket event handlers
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   └── .env
+├── server/                  # Node.js back-end
+│   ├── controllers/         # Socket event handlers
 │   │   ├── messageController.js
 │   │   ├── notificationController.js
 │   │   ├── roomController.js
 │   │   └── userController.js
-│   ├── models/            # Data models
+│   ├── models/              # Data models
 │   │   ├── Message.js
 │   │   └── User.js
-│   ├── socket/            # Socket.io server setup
+│   ├── socket/              # Socket.io server setup
 │   │   └── socketHandler.js
-│   ├── utils/             # Utility functions
+│   ├── utils/               # Utility functions
 │   │   ├── messageStore.js
 │   │   ├── roomManager.js
 │   │   └── userManager.js
-│   ├── server.js          
-│   ├── package.json       
-│   └── .env               
-|── README.md
-|── screenshot.png
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+├── README.md
+└── screenshot.png
 
 ## Quick setup
 
